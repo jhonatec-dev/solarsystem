@@ -22,6 +22,7 @@ class App extends React.Component {
         onClick={ this.playSong }
         role="button"
         aria-hidden
+
       >
         <Header />
         <SolarSystem />

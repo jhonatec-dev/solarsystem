@@ -8,7 +8,11 @@ import Title from './Title';
 export default class Missions extends Component {
   render() {
     return (
-      <div data-testid="missions" className="Missions">
+      <div
+        data-testid="missions"
+        className="Missions"
+
+      >
         <Title headline="Missões" />
         <section className="missions__section">
           {missionsArray.map(({ name, year, country, destination }) => (
