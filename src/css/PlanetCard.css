@@ -1,0 +1,157 @@
+.radius {
+
+  /* border: 1px solid white; */
+  border-radius: 50%;
+  bottom: -200px;
+  box-shadow: -6px 0 8px -8px white inset;
+  mix-blend-mode: lighten;
+  position: absolute;
+  transform: scale(0.75);
+}
+
+.radius img {
+  transform: translateY(-70%) scale(0.45);
+  width: 100px;
+}
+
+.planet-name {
+  clip-path: circle(50%);
+  font-size: 20px;
+  opacity: 0;
+  transform: translate(-75px);
+  z-index: 23;
+}
+
+.Mercúrio {
+  animation: translate 4.7s infinite linear;
+  animation-delay: 500ms;
+  height: 400px;
+  left: calc(50% - 200px);
+  width: 400px;
+  z-index: 10;
+}
+
+.Mercúrio img {
+  width: 40px;
+}
+
+.Vênus {
+  animation: translate 5.4s infinite linear;
+  animation-delay: 600ms;
+  height: 500px;
+  left: calc(50% - 250px);
+  width: 500px;
+  z-index: 9;
+}
+
+.Vênus img {
+  width: 121px;
+}
+
+.Terra {
+  animation: translate 6.8s infinite linear;
+  animation-delay: 700ms;
+  height: 600px;
+  left: calc(50% - 300px);
+  width: 600px;
+  z-index: 8;
+}
+
+.Terra img {
+  width: 127px;
+}
+
+.Marte {
+  animation: translate 9.7s infinite linear;
+  animation-delay: 800ms;
+  height: 700px;
+  left: calc(50% - 350px);
+  width: 700px;
+  z-index: 7;
+}
+
+.Marte img {
+  width: 67px;
+}
+
+.Júpiter {
+  animation: translate 13.1s infinite linear;
+  animation-delay: 900ms;
+  height: 800px;
+  left: calc(50% - 400px);
+  width: 800px;
+  z-index: 6;
+}
+
+.Júpiter img {
+  width: 167px;
+}
+
+.Saturno {
+  animation: translate 24.1s infinite linear;
+  animation-delay: 1000ms;
+  height: 900px;
+  left: calc(50% - 450px);
+  width: 900px;
+  z-index: 5;
+}
+
+.Saturno img {
+  width: 200px;
+}
+
+.Urano {
+  animation: translate 29.8s infinite linear;
+  animation-delay: 1100ms;
+  height: 980px;
+  left: calc(50% - 490px);
+  width: 980px;
+  z-index: 4;
+}
+
+.Urano img {
+  width: 60px;
+}
+
+.Netuno {
+  animation: translate 35s infinite linear;
+  animation-delay: 1200ms;
+  height: 1050px;
+  left: calc(50% - 525px);
+  width: 1050px;
+}
+
+.Netuno img {
+  width: 60px;
+}
+
+.radius:hover img {
+  transform: scale(1.5) translateY(-50%);
+  transition: 1s;
+}
+
+.radius:hover .planet-name {
+  font-size: 28px;
+  opacity: 1;
+  position: relative;
+  right: 80px;
+  transition: 0.3s;
+}
+
+@keyframes translate {
+
+  from {
+    transform: scale(0.75) rotate(0deg);
+  }
+
+  to {
+    transform: scale(0.75) rotate(-360deg);
+  }
+}
+
+@media screen and ( min-width : 800px ) {
+
+  .radius {
+    bottom: -200px;
+  }
+}

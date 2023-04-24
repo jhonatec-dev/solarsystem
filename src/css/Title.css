@@ -1,0 +1,11 @@
+h2 {
+  border-radius: 8px;
+  font-size: 2rem;
+  padding: 8px;
+  text-shadow: 1px 1px 4px white;
+  transition: 0.45s;
+}
+
+h2:hover {
+  transform: scale(1.5);
+}

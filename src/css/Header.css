@@ -1,0 +1,51 @@
+h1 {
+  color: white;
+  font-family: Earth Orbiter Title , sans-serif;
+  font-size: 2.5rem;
+  padding: 30px;
+  text-shadow: 1px 1px 8px rgba(255, 255, 0, 0.644);
+}
+
+.spinning {
+  animation: title_spin 2s linear infinite;
+  border-radius: 50%;
+  box-shadow: 2px 0 2px -1px white inset;
+  height: 80px;
+  left: 50%;
+  opacity: 0.8;
+  position: absolute;
+  top: 10px;
+  width: 80px;
+}
+
+.spining__planet {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 2px 2px 8px black inset;
+  height: 16px;
+  transform: translate(100%);
+  width: 16px;
+}
+
+@media screen and ( min-width : 1024px ) {
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .spinning {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@keyframes title_spin {
+
+  from {
+    transform: skew(-30deg) rotate(0deg);
+  }
+
+  to {
+    transform: skew(-30deg) rotate(360deg);
+  }
+}

@@ -1,0 +1,19 @@
+.missions__section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: space-evenly;
+  margin: 50px 0;
+}
+
+.Missions {
+  background-color: rgba(0, 0, 0, 0.464);
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  box-shadow: -2px -2px 20px rgba(255, 255, 255, 0.579);
+  left: 0;
+  padding-top: 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 20;
+}

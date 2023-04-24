@@ -1,0 +1,9 @@
+.Sun {
+  background-blend-mode: difference;
+  border-radius: 20%;
+  mix-blend-mode: lighten;
+  position: relative;
+  top: 100px;
+  width: 200px;
+  z-index: 20;
+}

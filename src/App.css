@@ -1,0 +1,53 @@
+/* @import url('https://fonts.cdnfonts.com/css/universe') ;
+
+@import url('https://fonts.cdnfonts.com/css/delta-universe') ;
+
+@import url('https://fonts.cdnfonts.com/css/andromeda-space') ; */
+
+@import url('https://fonts.cdnfonts.com/css/earth-orbiter') ;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  background-image: url('./images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.App {
+  color: white;
+  font-family: Earth Orbiter , sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  min-height: 100vh;
+  overflow: visible;
+  text-align: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #171717;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #383838;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4d4d4d;
+}

@@ -1,0 +1,29 @@
+.SolarSystem {
+  height: 830px;
+}
+
+.Planets {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 750px;
+  left: calc(50% - 100px);
+  position: absolute;
+  top: 200px;
+}
+
+.Planets:hover .radius {
+  animation: stopTrasnlate;
+  animation-play-state: paused;
+  transform: scale(0.75);
+}
+
+@keyframes stopTrasnlate {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
