@@ -1,14 +1,15 @@
 .SolarSystem {
   height: 830px;
+  position: relative;
 }
 
 .Planets {
+  bottom: 0;
   display: flex;
   flex-direction: column-reverse;
   height: 750px;
   left: calc(50% - 100px);
   position: absolute;
-  top: 200px;
 }
 
 .Planets:hover .radius {
