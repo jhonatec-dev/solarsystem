@@ -7,6 +7,7 @@
   gap: 16px;
   height: 220px;
   padding: 16px;
+  transition: 400ms;
   width: 350px;
 }
 
@@ -17,7 +18,8 @@
 }
 
 .MissionCard:hover {
-  background-color: rgba(79, 79, 79, 0.422);
+  background-color: rgba(6, 6, 6, 0.8);
+  font-size: large;
   transform: scale(1.1);
   transition: 0.4s;
   transition-property: all;

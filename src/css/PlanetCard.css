@@ -9,6 +9,10 @@
   transform: scale(0.75);
 }
 
+.Planets img {
+  user-select: none;
+}
+
 .radius img {
   transform: translateY(-70%) scale(0.45);
   width: 100px;
